@@ -97,7 +97,15 @@ body { background: black; color: #fff;-webkit-font-smoothing: antialiased;font-f
 					font-style: italic;
 					line-height: 1rem;
 					max-width: 260px;
-				}
+                }
+                
+.bigpic {
+
+    width: 100%;
+    z-index: -5;
+}
+
+            /*responsiv */
 
 @media (min-width: 990px) {
   header > nav > ul > li > a {
